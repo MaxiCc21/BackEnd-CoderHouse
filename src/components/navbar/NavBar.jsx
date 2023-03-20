@@ -9,7 +9,7 @@ import SearchForm from "../searchForm/SearchForm";
 
 const NavBar = () => {
   return (
-    <nav className="nav">
+    <nav className="my-nav">
       <div className="Nav-Logo">asd</div>
       <div className="Nav-Search">
         <SearchForm />
@@ -29,7 +29,7 @@ const NavBar = () => {
         </a>
       </div>
       <div className="Nav-Bar">
-        <ul>
+        <ul className="my-ul">
           <li>
             <a href="#">Categoria</a>
           </li>
@@ -51,7 +51,7 @@ const NavBar = () => {
         </ul>
       </div>
       <div class="Nav-Sesion">
-        <ul>
+        <ul className="my-ul">
           <li>
             <a href="#">Creá tu cuenta</a>
           </li>
