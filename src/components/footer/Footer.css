@@ -8,7 +8,7 @@
 
 .container-footer {
   background-color: rgba(127, 255, 212, 0);
-  width: 95%;
+  width: auto;
   margin: 20px;
   max-width: 1800px;
 }
