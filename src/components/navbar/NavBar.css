@@ -1,4 +1,10 @@
-.nav {
+.my-Nav-Container {
+  background-color: rgba(255, 241, 89, 255);
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.my-nav {
   display: grid;
   grid-template-columns: 162px 1fr 0.5fr;
   grid-template-rows: 1fr 1fr;
@@ -15,6 +21,8 @@
   color: rgba(51, 51, 51, 0.6);
   align-items: end;
   font-size: 14px;
+  min-width: 1022px;
+  width: 90%;
 }
 
 .Nav-Logo {
@@ -69,12 +77,13 @@
   height: 36px;
 }
 
-.Nav-Bar ul {
+.Nav-Bar .my-ul {
   display: flex;
   list-style: none;
   padding-inline-start: 0px;
+  margin-top: 15px;
 }
-.Nav-Bar ul * {
+.Nav-Bar .my-ul * {
   padding: 0px 5px 0px 5px;
   color: rgba(51, 51, 51, 0.6);
 }
@@ -87,12 +96,21 @@
   justify-content: flex-end;
 }
 
-.Nav-Sesion ul {
+.Nav-Sesion .my-ul {
   display: flex;
   list-style: none;
   padding-inline-start: 0px;
+  margin-top: 15px;
 }
-.Nav-Sesion ul * {
+.Nav-Sesion .my-ul * {
   padding: 0px 5px 0px 5px;
-  color: rgba(51, 51, 51, 0.6);
+  color: rgba(28, 28, 28, 0.6);
 }
+
+
+a {
+  text-decoration: none !important;
+  color: rgba(51, 51, 51, 0.6) !important;
+}
+
+
