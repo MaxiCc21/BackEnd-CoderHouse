@@ -4,14 +4,13 @@ import {
   faCartShopping,
   faLocationDot,
 } from "@fortawesome/free-solid-svg-icons";
-import { height } from "@mui/system";
 import SearchForm from "../searchForm/SearchForm";
 
 const NavBar = () => {
   return (
     <div className="my-Nav-Container">
       <nav className="my-nav">
-        <div className="Nav-Logo">asd</div>
+        <div className="Nav-Logo"></div>
         <div className="Nav-Search">
           <SearchForm />
         </div>
